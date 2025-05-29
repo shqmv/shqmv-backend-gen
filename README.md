@@ -1,4 +1,3 @@
-
 # Generador de Backend
 🎯 **shqmv-backend-gen** es una herramienta de línea de comandos que permite generar rápidamente plantillas de backend con tecnologías modernas como FastAPI, SQLAlchemy y Docker, ideal para acelerar el desarrollo de APIs RESTful y microservicios en Python.
 
