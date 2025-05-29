@@ -32,8 +32,8 @@ my-backend-project/
 
 | Tipo           | Tecnologías                |
 |----------------|----------------------------|
-| ✅ Base        | - FastAPI                  |
-| ✅ Complemento | - SQLAlchemy<br> - SQLAlchemy<br> - OAuth2 + JWT |
+| ✅ **Base**        | - FastAPI                  |
+| ✅ **Complemento** | - SQLAlchemy<br> - SQLAlchemy<br> - OAuth2 + JWT |
 
 ## 📝 Licencia
 Este proyecto está licenciado bajo la MIT License.
