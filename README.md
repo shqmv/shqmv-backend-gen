@@ -12,7 +12,7 @@ pip install shqmv-backend-gen
 ## ⚙️ Uso
 Inicializa un nuevo proyecto con el stack que prefieras mediante el comando:
 ```bash
-shqmv-backend-gen init
+shqmv-backend-gen init project-name
 ```
 Esto abrirá un menú interactivo donde podrás elegir entre distintos stacks disponibles (**por ejemplo:** FastAPI + SQLAlchemy) y generar tu plantilla con la estructura lista para empezar a trabajar.
 
@@ -20,12 +20,11 @@ Esto abrirá un menú interactivo donde podrás elegir entre distintos stacks di
 Un ejemplo del stack **FastAPI + SQLAlchemy** genera una estructura como esta:
 
 ```bash
-my-backend-project/
+project-name/
 ├── app/
 │   ├── main.py
 │   ├── models/
 │   └── routes/
-├── Dockerfile
 ├── requirements.txt
 └── .env
 ```
@@ -34,9 +33,6 @@ my-backend-project/
 |----------------|----------------------------|
 | ✅ **Base**        | - FastAPI                  |
 | ✅ **Complemento** | - SQLAlchemy<br> - OAuth2 + JWT |
-
-## 📝 Licencia
-Este proyecto está licenciado bajo la MIT License.
 
 ## 👨‍💻 Autor
 Desarrollado por [**shqmv**](https://github.com/shqmv)
